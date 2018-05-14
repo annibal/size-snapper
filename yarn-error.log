@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add resizilla
+
+PATH: 
+  C:\Users\czi0635\bin;C:\Users\czi0635\Documents\cmder\bin;C:\Program Files\Git\bin;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\usr\local\bin;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\usr\bin;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\usr\bin;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\usr\bin;C:\Users\czi0635\bin;C:\Users\czi0635\Documents\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\czi0635\Documents\cmder\vendor\conemu-maximus5;C:\Users\czi0635\Documents\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\WINDOWS\CCM;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\czi0635\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\czi0635\AppData\Roaming\npm;C:\Users\czi0635\AppData\Local\Yarn\bin;C:\Users\czi0635\Documents\cmder;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\usr\bin\vendor_perl;C:\Users\czi0635\Documents\cmder\vendor\git-for-windows\usr\bin\core_perl
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: unable to get local issuer certificate
+      at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+      at emitNone (events.js:106:13)
+      at TLSSocket.emit (events.js:208:7)
+      at TLSSocket._finishInit (_tls_wrap.js:639:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+
+npm manifest: 
+  {
+    "name": "size-snapper",
+    "version": "1.0.0",
+    "description": "Window size manager to snap into smart sizes",
+    "main": "index.js",
+    "repository": "https://github.com/annibal/size-snapper.git",
+    "author": "Arthur Annibal",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
