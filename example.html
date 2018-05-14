@@ -10,10 +10,15 @@
     <script src="dist/size-snapper.js"></script>
     <script>
         var x = new SizeSnapper();
+
+        x.onSnapSize = function() {
+            window.refDisplay.innerText = "Currently resizing to "+this.currentWidth+"px, zooming at "+Math.round(100*this.currentScale)+"%"
+        }
     </script>
 </head>
 <body>
     <h2>Size Snapper Example</h2>
-    <p>Yes an example</p>
+    <p id="refDisplay"></p>
+    <img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/Norway-Wallpaper-2560x1440-for-Tablets.jpg" style="width:100%" />
 </body>
 </html>
